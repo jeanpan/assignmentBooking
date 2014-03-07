@@ -38,8 +38,10 @@ a {
 }
 .box {
     margin: 5px 0;
-    width: 33.3%;
+    width: 33.3%;    
     display: inline-block;
+    zoom: 1;
+    *display: inline;    
 }
 .box .content {
     display: none;
