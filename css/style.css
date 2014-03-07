@@ -24,7 +24,7 @@ a {
 }
 .box {
     margin: 5px 0;
-    width: 33.3%;    
+    width: 33.3%;
     display: inline-block;
     zoom: 1;
     *display: inline;
@@ -44,10 +44,4 @@ a {
 }
 .box > span {
     margin-left: 3px;
-}
-.box > span:before {
-    content: "(";
-}
-.box > span:after {
-    content: ")";
 }
