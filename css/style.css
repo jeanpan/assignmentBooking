@@ -1,0 +1,55 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 600px;
+    margin: 0 auto;
+    padding: 0px;
+}
+.list {
+    width: 100%;
+    padding: 10px;
+    background: #ffbb39;
+}
+.list a {
+    color: #000;
+}
+.list a:hover {
+    color: #003181;
+}
+.list .active {
+    color: #003181;
+}
+.show {    
+    width: 100%;
+    background: #e6edf6;
+    color: #003181; 
+}
+.show p {
+    margin: 0;
+    padding: 10px;
+}
+.box {
+    margin: 5px 0;
+    width: 33.3%;
+    display: inline-block;
+}
+.box .content {
+    display: none;
+}
+.box > span {
+    margin-left: 3px;
+}
+.box > span:before {
+    content: "(";
+}
+.box > span:after {
+    content: ")";
+}
