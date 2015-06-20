@@ -1,10 +1,14 @@
 body {
 }
+
 .container {
     width: 600px;
     margin: 0 auto;
     padding: 0px;
 }
+
+
+/*
 .list {
     width: 100%;
     padding: 5px 0;
@@ -41,4 +45,9 @@ body {
 }
 .box > span {
     margin-left: 3px;
+}
+*/
+
+.country > .content {
+    display: none;
 }

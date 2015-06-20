@@ -8,15 +8,30 @@
 </head>
 <body>
     <div class="container">
+        <ul class="country-list"></ul>
+
+        <script type="text/template" data-template="country">
+            <li class="country" data-id="{{id}}">
+                <a href="#" class="show-more">{{name}}</a>
+                <span>{{count}}</span>
+                <div class="content">{{content}}</div>
+            </li>
+        </script>
+
+        <div class="more"></div>
+        
+        <!--
         <div class="list"></div>
         <div class="show"></div>
+        -->
     </div>
     <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/app.js"></script>    
     <script>
+    /*
     $(function() {
         var data;
 
-        /* test data */
         data = [
             {name: "Moscow", count: 12, content: "<p>Moscow is the capital city and the most populous federal subject of <b>Russia</b>. The city is a major political, economic, cultural and scientific center in Russia and in Eurasia.</p>"}, 
             {name: "Amsterdam", count: 25, content: "<p>Amsterdam is the capital and most populous city of the <b>Netherlands</b>. Its status as the Dutch capital is mandated by the Constitution of the Netherlands though it is not the seat of the Dutch government, which is at the Hague. </p>"}, 
@@ -52,6 +67,7 @@
             $('.show').html('<p>No data</p>');
         }
     });
+    */
     </script>    
 </body>
 </html>
