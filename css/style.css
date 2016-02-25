@@ -7,46 +7,26 @@ body {
     padding: 0px;
 }
 
+ul {
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
 
-/*
-.list {
-    width: 100%;
-    padding: 5px 0;
-    background: #ffbb39;
+li {
+  list-style: none;
+  display: inline-block;
+  width: 33%;
+  height: 30px;
+  white-space: nowrap;
+  float: left;
 }
-.show {    
-    width: 100%;
-    background: #e6edf6;
-    color: #003181; 
+
+li a {
+  text-decoration: none;
 }
-.show p {
-    margin: 0;
-    padding: 10px;
-}
-.box {
-    margin: 5px 0;
-    width: 33.3%;
-    display: inline-block;
-    zoom: 1;
-    *display: inline;
-}
-.box a {
-    padding: 10px 0 10px 10px;
-    color: #000;
-}
-.box a:hover {
-    color: #003181;
-}
-.box .active {
-    color: #003181;
-}
-.box .content {
-    display: none;
-}
-.box > span {
-    margin-left: 3px;
-}
-*/
+
 
 .country > .content {
     display: none;
