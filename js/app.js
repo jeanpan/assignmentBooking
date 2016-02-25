@@ -29,6 +29,7 @@ $(function(){
             this.countryTemplate = $('script[data-template="country"]').html();
 
             this.$countryList.on('click', '.show-more', function(e) {
+                e.preventDefault();
                 var txt = $(this).next().next().text();
                 $('.more').html(txt);
             });
